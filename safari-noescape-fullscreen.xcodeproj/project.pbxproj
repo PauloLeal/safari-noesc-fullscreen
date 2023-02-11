@@ -10,8 +10,6 @@
 		877FCBCA2997E19C00936D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877FCBC92997E19C00936D94 /* AppDelegate.swift */; };
 		877FCBCE2997E19C00936D94 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBCC2997E19C00936D94 /* Main.html */; };
 		877FCBD02997E19C00936D94 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBCF2997E19C00936D94 /* Icon.png */; };
-		877FCBD22997E19D00936D94 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBD12997E19D00936D94 /* Style.css */; };
-		877FCBD42997E19D00936D94 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBD32997E19D00936D94 /* Script.js */; };
 		877FCBD62997E19D00936D94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877FCBD52997E19D00936D94 /* ViewController.swift */; };
 		877FCBD92997E19D00936D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBD72997E19D00936D94 /* Main.storyboard */; };
 		877FCBDB2997E19D00936D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBDA2997E19D00936D94 /* Assets.xcassets */; };
@@ -56,8 +54,6 @@
 		877FCBC92997E19C00936D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		877FCBCD2997E19C00936D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		877FCBCF2997E19C00936D94 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		877FCBD12997E19D00936D94 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		877FCBD32997E19D00936D94 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		877FCBD52997E19D00936D94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		877FCBD82997E19D00936D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		877FCBDA2997E19D00936D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -132,8 +128,6 @@
 			children = (
 				877FCBCC2997E19C00936D94 /* Main.html */,
 				877FCBCF2997E19C00936D94 /* Icon.png */,
-				877FCBD12997E19D00936D94 /* Style.css */,
-				877FCBD32997E19D00936D94 /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -247,10 +241,8 @@
 			files = (
 				877FCBD02997E19C00936D94 /* Icon.png in Resources */,
 				877FCBD92997E19D00936D94 /* Main.storyboard in Resources */,
-				877FCBD42997E19D00936D94 /* Script.js in Resources */,
 				877FCBCE2997E19C00936D94 /* Main.html in Resources */,
 				877FCBDB2997E19D00936D94 /* Assets.xcassets in Resources */,
-				877FCBD22997E19D00936D94 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
