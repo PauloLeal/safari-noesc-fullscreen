@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		877FCBCA2997E19C00936D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877FCBC92997E19C00936D94 /* AppDelegate.swift */; };
+		877FCBCE2997E19C00936D94 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBCC2997E19C00936D94 /* Main.html */; };
+		877FCBD02997E19C00936D94 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBCF2997E19C00936D94 /* Icon.png */; };
+		877FCBD22997E19D00936D94 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBD12997E19D00936D94 /* Style.css */; };
+		877FCBD42997E19D00936D94 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBD32997E19D00936D94 /* Script.js */; };
+		877FCBD62997E19D00936D94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877FCBD52997E19D00936D94 /* ViewController.swift */; };
+		877FCBD92997E19D00936D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBD72997E19D00936D94 /* Main.storyboard */; };
+		877FCBDB2997E19D00936D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBDA2997E19D00936D94 /* Assets.xcassets */; };
+		877FCBE32997E19D00936D94 /* safari-noescape-fullscreen Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 877FCBE22997E19D00936D94 /* safari-noescape-fullscreen Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		877FCBE82997E19D00936D94 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877FCBE72997E19D00936D94 /* SafariWebExtensionHandler.swift */; };
+		877FCBEB2997E19D00936D94 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBEA2997E19D00936D94 /* _locales */; };
+		877FCBED2997E19D00936D94 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBEC2997E19D00936D94 /* images */; };
+		877FCBEF2997E19D00936D94 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBEE2997E19D00936D94 /* manifest.json */; };
+		877FCBF12997E19D00936D94 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBF02997E19D00936D94 /* background.js */; };
+		877FCBF32997E19D00936D94 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBF22997E19D00936D94 /* content.js */; };
+		877FCBF52997E19D00936D94 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBF42997E19D00936D94 /* popup.html */; };
+		877FCBF72997E19D00936D94 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBF62997E19D00936D94 /* popup.css */; };
+		877FCBF92997E19D00936D94 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBF82997E19D00936D94 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		877FCBE42997E19D00936D94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 877FCBBE2997E19C00936D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877FCBE12997E19D00936D94;
+			remoteInfo = "safari-noescape-fullscreen Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		877FCC012997E19D00936D94 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				877FCBE32997E19D00936D94 /* safari-noescape-fullscreen Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		877FCBC62997E19C00936D94 /* safari-noescape-fullscreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "safari-noescape-fullscreen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		877FCBC92997E19C00936D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		877FCBCD2997E19C00936D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		877FCBCF2997E19C00936D94 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		877FCBD12997E19D00936D94 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		877FCBD32997E19D00936D94 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		877FCBD52997E19D00936D94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		877FCBD82997E19D00936D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		877FCBDA2997E19D00936D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		877FCBDC2997E19D00936D94 /* safari_noescape_fullscreen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = safari_noescape_fullscreen.entitlements; sourceTree = "<group>"; };
+		877FCBDD2997E19D00936D94 /* safari-noescape-fullscreen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "safari-noescape-fullscreen.entitlements"; sourceTree = "<group>"; };
+		877FCBE22997E19D00936D94 /* safari-noescape-fullscreen Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "safari-noescape-fullscreen Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		877FCBE72997E19D00936D94 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		877FCBEA2997E19D00936D94 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		877FCBEC2997E19D00936D94 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		877FCBEE2997E19D00936D94 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		877FCBF02997E19D00936D94 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		877FCBF22997E19D00936D94 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		877FCBF42997E19D00936D94 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		877FCBF62997E19D00936D94 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		877FCBF82997E19D00936D94 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		877FCBFA2997E19D00936D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877FCBFB2997E19D00936D94 /* safari_noescape_fullscreen_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = safari_noescape_fullscreen_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		877FCBC32997E19C00936D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877FCBDF2997E19D00936D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		877FCBBD2997E19C00936D94 = {
+			isa = PBXGroup;
+			children = (
+				877FCBC82997E19C00936D94 /* safari-noescape-fullscreen */,
+				877FCBE62997E19D00936D94 /* safari-noescape-fullscreen Extension */,
+				877FCBC72997E19C00936D94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		877FCBC72997E19C00936D94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				877FCBC62997E19C00936D94 /* safari-noescape-fullscreen.app */,
+				877FCBE22997E19D00936D94 /* safari-noescape-fullscreen Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		877FCBC82997E19C00936D94 /* safari-noescape-fullscreen */ = {
+			isa = PBXGroup;
+			children = (
+				877FCBC92997E19C00936D94 /* AppDelegate.swift */,
+				877FCBD52997E19D00936D94 /* ViewController.swift */,
+				877FCBD72997E19D00936D94 /* Main.storyboard */,
+				877FCBDA2997E19D00936D94 /* Assets.xcassets */,
+				877FCBDC2997E19D00936D94 /* safari_noescape_fullscreen.entitlements */,
+				877FCBDD2997E19D00936D94 /* safari-noescape-fullscreen.entitlements */,
+				877FCBCB2997E19C00936D94 /* Resources */,
+			);
+			path = "safari-noescape-fullscreen";
+			sourceTree = "<group>";
+		};
+		877FCBCB2997E19C00936D94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				877FCBCC2997E19C00936D94 /* Main.html */,
+				877FCBCF2997E19C00936D94 /* Icon.png */,
+				877FCBD12997E19D00936D94 /* Style.css */,
+				877FCBD32997E19D00936D94 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		877FCBE62997E19D00936D94 /* safari-noescape-fullscreen Extension */ = {
+			isa = PBXGroup;
+			children = (
+				877FCBE72997E19D00936D94 /* SafariWebExtensionHandler.swift */,
+				877FCBFA2997E19D00936D94 /* Info.plist */,
+				877FCBFB2997E19D00936D94 /* safari_noescape_fullscreen_Extension.entitlements */,
+				877FCBE92997E19D00936D94 /* Resources */,
+			);
+			path = "safari-noescape-fullscreen Extension";
+			sourceTree = "<group>";
+		};
+		877FCBE92997E19D00936D94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				877FCBEA2997E19D00936D94 /* _locales */,
+				877FCBEC2997E19D00936D94 /* images */,
+				877FCBEE2997E19D00936D94 /* manifest.json */,
+				877FCBF02997E19D00936D94 /* background.js */,
+				877FCBF22997E19D00936D94 /* content.js */,
+				877FCBF42997E19D00936D94 /* popup.html */,
+				877FCBF62997E19D00936D94 /* popup.css */,
+				877FCBF82997E19D00936D94 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		877FCBC52997E19C00936D94 /* safari-noescape-fullscreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877FCC022997E19D00936D94 /* Build configuration list for PBXNativeTarget "safari-noescape-fullscreen" */;
+			buildPhases = (
+				877FCBC22997E19C00936D94 /* Sources */,
+				877FCBC32997E19C00936D94 /* Frameworks */,
+				877FCBC42997E19C00936D94 /* Resources */,
+				877FCC012997E19D00936D94 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				877FCBE52997E19D00936D94 /* PBXTargetDependency */,
+			);
+			name = "safari-noescape-fullscreen";
+			productName = "safari-noescape-fullscreen";
+			productReference = 877FCBC62997E19C00936D94 /* safari-noescape-fullscreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		877FCBE12997E19D00936D94 /* safari-noescape-fullscreen Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877FCBFE2997E19D00936D94 /* Build configuration list for PBXNativeTarget "safari-noescape-fullscreen Extension" */;
+			buildPhases = (
+				877FCBDE2997E19D00936D94 /* Sources */,
+				877FCBDF2997E19D00936D94 /* Frameworks */,
+				877FCBE02997E19D00936D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "safari-noescape-fullscreen Extension";
+			productName = "safari-noescape-fullscreen Extension";
+			productReference = 877FCBE22997E19D00936D94 /* safari-noescape-fullscreen Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		877FCBBE2997E19C00936D94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					877FCBC52997E19C00936D94 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					877FCBE12997E19D00936D94 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 877FCBC12997E19C00936D94 /* Build configuration list for PBXProject "safari-noescape-fullscreen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 877FCBBD2997E19C00936D94;
+			productRefGroup = 877FCBC72997E19C00936D94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				877FCBC52997E19C00936D94 /* safari-noescape-fullscreen */,
+				877FCBE12997E19D00936D94 /* safari-noescape-fullscreen Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		877FCBC42997E19C00936D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877FCBD02997E19C00936D94 /* Icon.png in Resources */,
+				877FCBD92997E19D00936D94 /* Main.storyboard in Resources */,
+				877FCBD42997E19D00936D94 /* Script.js in Resources */,
+				877FCBCE2997E19C00936D94 /* Main.html in Resources */,
+				877FCBDB2997E19D00936D94 /* Assets.xcassets in Resources */,
+				877FCBD22997E19D00936D94 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877FCBE02997E19D00936D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877FCBF12997E19D00936D94 /* background.js in Resources */,
+				877FCBF72997E19D00936D94 /* popup.css in Resources */,
+				877FCBF52997E19D00936D94 /* popup.html in Resources */,
+				877FCBED2997E19D00936D94 /* images in Resources */,
+				877FCBEF2997E19D00936D94 /* manifest.json in Resources */,
+				877FCBEB2997E19D00936D94 /* _locales in Resources */,
+				877FCBF32997E19D00936D94 /* content.js in Resources */,
+				877FCBF92997E19D00936D94 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		877FCBC22997E19C00936D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877FCBD62997E19D00936D94 /* ViewController.swift in Sources */,
+				877FCBCA2997E19C00936D94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877FCBDE2997E19D00936D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877FCBE82997E19D00936D94 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		877FCBE52997E19D00936D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 877FCBE12997E19D00936D94 /* safari-noescape-fullscreen Extension */;
+			targetProxy = 877FCBE42997E19D00936D94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		877FCBCC2997E19C00936D94 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877FCBCD2997E19C00936D94 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		877FCBD72997E19D00936D94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877FCBD82997E19D00936D94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		877FCBFC2997E19D00936D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		877FCBFD2997E19D00936D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		877FCBFF2997E19D00936D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "safari-noescape-fullscreen Extension/safari_noescape_fullscreen_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQZ3ZM7K8A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "safari-noescape-fullscreen Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "safari-noescape-fullscreen Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.pleal.safari-noescape-fullscreen.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		877FCC002997E19D00936D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "safari-noescape-fullscreen Extension/safari_noescape_fullscreen_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQZ3ZM7K8A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "safari-noescape-fullscreen Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "safari-noescape-fullscreen Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.pleal.safari-noescape-fullscreen.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		877FCC032997E19D00936D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "safari-noescape-fullscreen/safari-noescape-fullscreen.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQZ3ZM7K8A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "safari-noescape-fullscreen";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.pleal.safari-noescape-fullscreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		877FCC042997E19D00936D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "safari-noescape-fullscreen/safari-noescape-fullscreen.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQZ3ZM7K8A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "safari-noescape-fullscreen";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.pleal.safari-noescape-fullscreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		877FCBC12997E19C00936D94 /* Build configuration list for PBXProject "safari-noescape-fullscreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877FCBFC2997E19D00936D94 /* Debug */,
+				877FCBFD2997E19D00936D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877FCBFE2997E19D00936D94 /* Build configuration list for PBXNativeTarget "safari-noescape-fullscreen Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877FCBFF2997E19D00936D94 /* Debug */,
+				877FCC002997E19D00936D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877FCC022997E19D00936D94 /* Build configuration list for PBXNativeTarget "safari-noescape-fullscreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877FCC032997E19D00936D94 /* Debug */,
+				877FCC042997E19D00936D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 877FCBBE2997E19C00936D94 /* Project object */;
+}
