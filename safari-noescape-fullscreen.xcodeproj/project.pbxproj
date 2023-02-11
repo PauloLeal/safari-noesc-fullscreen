@@ -15,14 +15,9 @@
 		877FCBDB2997E19D00936D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBDA2997E19D00936D94 /* Assets.xcassets */; };
 		877FCBE32997E19D00936D94 /* safari-noescape-fullscreen Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 877FCBE22997E19D00936D94 /* safari-noescape-fullscreen Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		877FCBE82997E19D00936D94 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877FCBE72997E19D00936D94 /* SafariWebExtensionHandler.swift */; };
-		877FCBEB2997E19D00936D94 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBEA2997E19D00936D94 /* _locales */; };
 		877FCBED2997E19D00936D94 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBEC2997E19D00936D94 /* images */; };
 		877FCBEF2997E19D00936D94 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBEE2997E19D00936D94 /* manifest.json */; };
-		877FCBF12997E19D00936D94 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBF02997E19D00936D94 /* background.js */; };
-		877FCBF32997E19D00936D94 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBF22997E19D00936D94 /* content.js */; };
-		877FCBF52997E19D00936D94 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBF42997E19D00936D94 /* popup.html */; };
-		877FCBF72997E19D00936D94 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBF62997E19D00936D94 /* popup.css */; };
-		877FCBF92997E19D00936D94 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBF82997E19D00936D94 /* popup.js */; };
+		877FCBF12997E19D00936D94 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 877FCBF02997E19D00936D94 /* script.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,14 +56,9 @@
 		877FCBDD2997E19D00936D94 /* safari-noescape-fullscreen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "safari-noescape-fullscreen.entitlements"; sourceTree = "<group>"; };
 		877FCBE22997E19D00936D94 /* safari-noescape-fullscreen Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "safari-noescape-fullscreen Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		877FCBE72997E19D00936D94 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		877FCBEA2997E19D00936D94 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		877FCBEC2997E19D00936D94 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		877FCBEE2997E19D00936D94 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		877FCBF02997E19D00936D94 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		877FCBF22997E19D00936D94 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		877FCBF42997E19D00936D94 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		877FCBF62997E19D00936D94 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		877FCBF82997E19D00936D94 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		877FCBF02997E19D00936D94 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		877FCBFA2997E19D00936D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		877FCBFB2997E19D00936D94 /* safari_noescape_fullscreen_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = safari_noescape_fullscreen_Extension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,14 +136,9 @@
 		877FCBE92997E19D00936D94 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				877FCBEA2997E19D00936D94 /* _locales */,
 				877FCBEC2997E19D00936D94 /* images */,
 				877FCBEE2997E19D00936D94 /* manifest.json */,
-				877FCBF02997E19D00936D94 /* background.js */,
-				877FCBF22997E19D00936D94 /* content.js */,
-				877FCBF42997E19D00936D94 /* popup.html */,
-				877FCBF62997E19D00936D94 /* popup.css */,
-				877FCBF82997E19D00936D94 /* popup.js */,
+				877FCBF02997E19D00936D94 /* script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -250,14 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				877FCBF12997E19D00936D94 /* background.js in Resources */,
-				877FCBF72997E19D00936D94 /* popup.css in Resources */,
-				877FCBF52997E19D00936D94 /* popup.html in Resources */,
+				877FCBF12997E19D00936D94 /* script.js in Resources */,
 				877FCBED2997E19D00936D94 /* images in Resources */,
 				877FCBEF2997E19D00936D94 /* manifest.json in Resources */,
-				877FCBEB2997E19D00936D94 /* _locales in Resources */,
-				877FCBF32997E19D00936D94 /* content.js in Resources */,
-				877FCBF92997E19D00936D94 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

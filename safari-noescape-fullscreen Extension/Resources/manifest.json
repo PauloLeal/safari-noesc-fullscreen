@@ -14,17 +14,7 @@
         "512": "images/icon-512.png"
     },
 
-    "background": {
-        "service_worker": "background.js"
-    },
-
-    "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
-    }],
-
     "action": {
-        "default_popup": "popup.html",
         "default_icon": {
             "16": "images/toolbar-icon-16.png",
             "19": "images/toolbar-icon-19.png",
