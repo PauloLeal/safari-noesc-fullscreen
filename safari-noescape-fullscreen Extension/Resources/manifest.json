@@ -2,8 +2,8 @@
     "manifest_version": 3,
     "default_locale": "en",
 
-    "name": "__MSG_extension_name__",
-    "description": "__MSG_extension_description__",
+    "name": "safari-noescape-fullscreen",
+    "description": "Disable leaving fullscreen when esc is pressed",
     "version": "1.0",
 
     "icons": {
@@ -25,5 +25,5 @@
         }
     },
 
-    "permissions": [ ]
+    "permissions": [ "pageCapture", "scripting", "webNavigation" ]
 }
